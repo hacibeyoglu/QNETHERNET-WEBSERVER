@@ -1,0 +1,31 @@
+{
+    "name": "QNEthernet-WebServer",
+    "description": "Ported ESP WebServer on top of QNEthernet",
+    "keywords": "http, web",
+    "authors": [
+      {
+        "name": "Emre Hacibeyoglu",
+        "email": "emre@hacibeyoglu.com",
+        "maintainer": true
+      }
+    ],
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/hacibeyoglu/QNEthernet-WebServer"
+    },
+    "version": "0.1.0",
+    "license": "MIT",
+    "homepage": "https://github.com/hacibeyoglu/QNEthernet-WebServer",
+    "frameworks": "arduino",
+    "platforms": "teensy",  
+    "dependencies":
+    [
+      {
+        "owner": "ssilverman",
+        "name": "QNEthernet",
+        "version": ">=0.21.0",
+        "platforms": ["teensy"]
+      }
+    ]
+  }
+  
